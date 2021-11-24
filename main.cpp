@@ -14,9 +14,7 @@ int main()
 	do
 	{		
 		ActType = AppManager.GetUserAction();
-		AppManager.ExecuteAction(ActType);
-		AppManager.UpdateInterface();
-	
+		AppManager.ExecuteAction(ActType);	
 
 	}while(ActType != EXIT);
 		
