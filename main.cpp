@@ -12,13 +12,7 @@ int main()
 	ApplicationManager AppManager;
 
 	do
-	{		
-		ActType = AppManager.GetUserAction();
-		AppManager.ExecuteAction(ActType);
-	
-		AppManager.(ActType);	
 
-	}while(ActType != EXIT);
 		
 	return 0;
 }
