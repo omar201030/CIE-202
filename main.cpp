@@ -16,7 +16,7 @@ int main()
 		ActType = AppManager.GetUserAction();
 		AppManager.ExecuteAction(ActType);
 	
-		AppManager.ExecuteAction(ActType);	
+		AppManager.(ActType);	
 
 	}while(ActType != EXIT);
 		
