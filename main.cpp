@@ -9,18 +9,12 @@ int main()
 {
 
 	ActionType ActType;
-	//Create an object of ApplicationManager
 	ApplicationManager AppManager;
 
 	do
 	{		
-		//Read user action
 		ActType = AppManager.GetUserAction();
-
-		//Exexute the action
 		AppManager.ExecuteAction(ActType);
-
-		//Update the drawing window
 		AppManager.UpdateInterface();
 	
 
